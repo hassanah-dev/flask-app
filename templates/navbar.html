@@ -1,0 +1,20 @@
+<style>
+    @media (max-width: 767.98px) {
+      .cst-w-100 {
+        width: 100% !important;
+      }
+    }
+</style>
+
+<div class="shadow-sm mb-4">
+<header class="d-flex flex-wrap justify-content-center py-3 container">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none cst-w-100">
+        <span class="fs-4 cst-w-100 text-center">Hassan Ahmed</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="/" class="nav-link {% if active=='home' %}active{%endif %}" {% if active=='home' %}aria-current="page"{%endif %} >Home</a></li>
+        <li class="nav-item"><a href="/about" class="nav-link {% if active=='about' %}active{%endif %}" {% if active=='about' %}aria-current="page"{%endif %}>About</a></li>
+      </ul>
+</header>
+</div>
